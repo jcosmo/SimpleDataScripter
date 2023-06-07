@@ -120,7 +120,7 @@ export class DataScripter {
     }
 
     private escapeQuotes(input: string) : string {
-        return input.replace(/'+/g, "''");
+        return input.replace(/'/g, "''");
     }
 
     // scripts the data for each row
